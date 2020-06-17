@@ -1,0 +1,22 @@
+.flex-multi {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .flex-multi > h2{
+    width: 800px;
+    text-align: center;
+  }
+  
+.flex-column {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    align-items: stretch;
+    justify-content: center;
+  }
+
+
+  .imgMulti{width: 150px;}
