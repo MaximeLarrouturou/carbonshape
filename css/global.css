@@ -112,12 +112,16 @@ a{
     text-align: left;
   }
 
+
 @media (max-width: 600px) {
+
     h1 {
-        font-size:24px;
+        font-size:20px;
+        line-height: 25px;
     }
     h2 {
-        font-size:18px;
+        font-size:16px;
+        line-height: 25px;
     }
     .white{
       width:auto;  
@@ -141,7 +145,6 @@ a{
     .button{
       margin-bottom:40px;
     }
-
     .flex-container {
       flex-wrap: wrap;
     }

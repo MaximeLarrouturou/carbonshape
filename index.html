@@ -28,20 +28,31 @@
     </div>
   </div>
 
-  <ul style="z-index: 2;" class="topnav">
+  <ul style="z-index: 2;" class="topnav navdisplay">
     <li><a href="#contact">Contact</a></li>
     <li><a href="#presses">Presses</a></li>
     <li><a href="./templates/projets.html">Réalisations</a></li>
     <li><a href="#apropos">A propos</a></li>
     <li><a class="active" href="./index.html">Accueil</a></li>
   </ul>
+
+  <div style="z-index: 2;" class="dropdown toggle">
+    <button class="dropbtn">Menu</button>
+    <div style="z-index: 2;" class="dropdown-content">
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#presses">Presses</a></li>
+      <li><a href="./templates/projets.html">Réalisations</a></li>
+      <li><a href="#apropos">A propos</a></li>
+      <li><a class="active" href="./index.html">Accueil</a></li>
+    </div>
+  </div>
   <!--nav-->
   <!--caroussel-->
   <div class="flex-container medium-height">
-    <div class="absolute">
+    <div>
       <img src="./src/home/pres.jpg" />
     </div>
-    <div style="z-index: 1;">
+    <div class="absolute" style="z-index: 1;">
       <h1 class="white">Vous cherchez la pièce rare introuvable ? <br />Vous souhaitez réparer l'existant ou créer une
         piece unique...
       </h1>
