@@ -111,7 +111,9 @@ a{
   .left{
     text-align: left;
   }
-
+  .fullsize{
+    width:100%;
+  }
 
 @media (max-width: 600px) {
 
@@ -158,8 +160,5 @@ a{
     .flex-nav > div {
       flex: 100%;
       max-width: 100%;
-    }
-    .fullsize{
-      width:100%;
     }
   }
