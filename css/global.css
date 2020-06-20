@@ -159,4 +159,7 @@ a{
       flex: 100%;
       max-width: 100%;
     }
+    .fullsize{
+      width:100%;
+    }
   }
