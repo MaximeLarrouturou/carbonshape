@@ -33,25 +33,58 @@ a{
   color: #ffffff;
 }
 
+.btn {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 25px 80px;
+	display: inline-block;
+	margin: 15px 0px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
 
-.button {
-    background-color: #008CBA; /* Green */
-    border: none;
-    border-radius: 3px;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-  }
-  
-  .button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  }
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+/* Button 1 */
+.btn-1 {
+	border: 1.5px solid #fff;
+	color: #fff;
+}
+
+.btn-1a:hover,
+.btn-1a:active {
+	color: #c51414;
+	background: #fff;
+}
+
+.btn-2 {
+	border: 1.5px solid #c51414;
+	color: #c51414;
+}
+.btn-2a:hover,
+.btn-2a:active {
+	color: #fff;
+	background: #c51414;
+}
+
 
   .flex-container {
     display: flex;
