@@ -106,6 +106,12 @@ a{
 	background: #6b6b3d;
 }
 
+.shadow{
+  box-shadow: 0 21px 32px rgba(0, 0, 0, 1)  ; 
+  -webkit-box-shadow: 0 21px 32px rgba(0, 0, 0, 1)  ; 
+  -moz-box-shadow: 0 21px 32px rgba(0, 0, 0, 1)  ;
+  border-radius:100px;
+}
 
   .flex-container {
     display: flex;
