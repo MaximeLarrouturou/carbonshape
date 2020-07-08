@@ -3,7 +3,13 @@
 body {
   font-family: 'Noto Sans JP', sans-serif;
     margin: 0;
+    background: #0C0E0E;  /* fallback for old browsers */
+    background: radial-gradient(circle,  #17191e, #14191c, #131819, #131716, #141614, #131513, #131413, #121312, #111211, #0f1110, #0e0f0f, #0c0e0e);
+    background: -webkit-radial-gradient(circle,  #17191e, #14191c, #131819, #131716, #141614, #131513, #131413, #121312, #111211, #0f1110, #0e0f0f, #0c0e0e);
+    color:#5e6466;
 }
+
+
 
 h1 {
   font-family: 'Noto Sans JP', sans-serif;
@@ -71,18 +77,18 @@ a{
 
 .btn-1a:hover,
 .btn-1a:active {
-	color: #c51414;
+	color: #6b6b3d;
 	background: #fff;
 }
 
 .btn-2 {
-	border: 1.5px solid #c51414;
-	color: #c51414;
+	border: 1.5px solid #6b6b3d;
+	color: #6b6b3d;
 }
 .btn-2a:hover,
 .btn-2a:active {
 	color: #fff;
-	background: #c51414;
+	background: #6b6b3d;
 }
 
 
@@ -106,7 +112,7 @@ a{
     flex-wrap: wrap;
   }
   .wrap > div {
-    background-color: #f1f1f1;
+    background-color: #5e6466;
     width: 160px;
     margin: 10px;
     text-align: center;
@@ -117,17 +123,19 @@ a{
     width:900px;  
     margin-top: 150px;
     text-align: center;
-    color:#ffffff;
+    color:#ffffff
   }
   .whiteProjet{
     width:900px;  
     text-align: center;
-    color:#ffffff;
+    color:#ffffff
   }
-  .black{
+  .testi{
     width:900px;  
     text-align: center;
-    color:#000000;
+  }
+  .green{
+    color:#6b6b3d;
   }
   .absolute{
     position: absolute;
@@ -148,7 +156,7 @@ a{
     padding:55px;
   }
   .grey{
-    background-color: #F6F8F9;
+    background-color: #0e0f0f;
   }
   .small-width{
     width: 150px !important;
