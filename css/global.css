@@ -176,6 +176,9 @@ a{
   .small-width{
     width: 150px !important;
   }
+  .logo-width{
+    width:300px;
+  }
   .center{
     text-align: center;
   }
