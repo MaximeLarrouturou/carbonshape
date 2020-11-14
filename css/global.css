@@ -195,15 +195,32 @@ a{
     width:100%;
   }
 
+  .carbon{
+    width:1140px;
+  }
+
+  .imgcarbon{
+    width:160px;
+    height:74.4px;
+  }
+
 @media (max-width: 600px) {
 
     h1 {
-        font-size:20px;
-        line-height: 25px;
+        font-size:26px;            
+        line-height: 32px;
+        padding:12px;
     }
     h2 {
-        font-size:16px;
-        line-height: 25px;
+        font-size:22px;
+        line-height: 32px;
+        padding:12px;
+    }
+    h3{
+      font-size:18px;
+      line-height: 32px;
+      padding:12px;
+
     }
     .white{
       width:auto;  
@@ -239,5 +256,23 @@ a{
     .flex-nav > div {
       flex: 100%;
       max-width: 100%;
+    }
+    .carbon{
+      width: auto;
+    }
+
+    .absolute{
+      position: sticky;
+    }
+    .imgcarbon{
+      width:100px;
+      height:74.4px;
+    }
+    .wrap > div{
+      width:100px;
+      height:74.4px;
+    }
+    .logo-width{
+      width:230px;
     }
   }
