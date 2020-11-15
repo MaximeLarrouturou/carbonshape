@@ -30,6 +30,22 @@
     <li class="cl-effect-4"><a  href="../../index.html">Accueil</a></li>
   </ul>
 
+  <div class="device hidden">
+    <div class="container">
+      <button id="burger" class="open-main-nav">
+        <span class="burger"></span>
+      </button>
+      <nav class="main-nav" id="main-nav">
+        <ul>
+          <li><a href="../../templates/presseDetails.html">Le carbone</a></li>
+          <li><a href="../../templates/projets.html">Réalisations</a></li>
+          <li><a href="../../templates/propos.html">A propos</a></li>
+          <li><a href="../../index.html">Accueil</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
   <!--photo_01-->
   <div class="flex-container">
     <div class="fullsize">
@@ -105,6 +121,36 @@
     </div>
   </div>
   <!--footer-->
+  <script>
+    let burger = document.getElementById('burger'),
+      nav = document.getElementById('main-nav'),
+      slowmo = document.getElementById('slowmo');
+
+    burger.addEventListener('click', function (e) {
+      this.classList.toggle('is-open');
+      nav.classList.toggle('is-open');
+    });
+
+    slowmo.addEventListener('click', function (e) {
+      this.classList.toggle('is-slowmo');
+    });
+
+    /* Onload demo - dirty timeout */
+    let clickEvent = new Event('click');
+
+    window.addEventListener('load', function (e) {
+      slowmo.dispatchEvent(clickEvent);
+      burger.dispatchEvent(clickEvent);
+
+      setTimeout(function () {
+        burger.dispatchEvent(clickEvent);
+
+        setTimeout(function () {
+          slowmo.dispatchEvent(clickEvent);
+        }, 3500);
+      }, 5500);
+    });
+  </script>
 </body>
 
 </html>
