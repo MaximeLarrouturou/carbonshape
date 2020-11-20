@@ -295,6 +295,10 @@ a{
       display: flex;
     }
 
+    .centerMobile {
+      text-align: center;
+    }
+
 
     .main-nav {
       position: fixed;
