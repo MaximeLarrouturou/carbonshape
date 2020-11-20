@@ -174,7 +174,12 @@ a{
     padding:20px;
   }
   .padding{
-    padding:55px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .paddingTopBottom{
+    padding-top: 150px;
+    padding-bottom: 150px;
   }
   .grey{
     background-color: #0e0f0f;
